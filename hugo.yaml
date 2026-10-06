@@ -1,0 +1,75 @@
+baseURL: https://example.org/
+locale: id
+title: Xplore Tech
+theme: nuno
+
+enableRobotsTXT: true
+# buildDrafts: false
+buildFuture: false
+bulidExpired: false
+
+menu:
+  main:
+    - identifier: "guides"
+      name: "Guides"
+      url: "/categories/guides/"
+      weight: 10
+
+    - identifier: "notes"
+      name: "Notes"
+      url: "/categories/notes"
+      weight: 20
+
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 50
+
+params:
+  accent: "#e8b04b"     # dark-mode accent. mustard (default), copper #d97b4f,
+                        # green #0f766e, sky #8fb8d6
+  accentLight: "#0f766e" # light-mode accent. Left empty, each of the four above
+                        # maps to a darkened variant that clears 4.5:1 on ivory.
+  ground: "brown"       # brown | green — the default dark ground
+  defaultTheme: "auto"  # auto follows prefers-color-scheme; or force "dark"/"light".
+                        # Only affects a first visit — a visitor's own toggle is
+                        # remembered and always wins.
+  brand: "Xplore Tech"              # nav wordmark; defaults to the baseURL host
+  # tagline: "Notes, since stone age."
+  postsOnHome: 6
+  postsOnHomeMax: 12      # renders more behind a "Show more" button. Unset, or
+                          # at or below postsOnHome, nothing changes.
+  homeHeader: "masthead"  # masthead | profile — see "Home styles" below
+  homeStyle: "grid"       # grid | ledger
+  homeGroupByYear: false  # ledger only: split rows under year headings
+  profileBio: ""          # profile header bio; defaults to params.description
+  relatedCount: 3         # "Related reading" entries under a post
+  readingProgress: true # thin accent bar at the top of a post
+  seriesPanel: true       # Chapters/Contents tabs in the aside on a series post
+  showLastmod: false      # "Updated …" byline; read the caveat under Posts
+  masthead: 'I explore,<br><span class="accent">therefore</span><br>I am.'
+  # About heading: use spans, not <br> — they stack on desktop and reflow to one
+  # sentence on mobile. A <br> cannot do both.
+  # aboutHeading: '<span class="about__title-part">I explore,</span> <span class="about__title-part"></span> <span class="about__title-part accent">therefore I am.</span>'
+  # portrait: "images/portrait.jpg"   # About portrait, from assets/ or static/
+  # aboutElsewhereRow: false          # true restores the text "Elsewhere" row
+                                    # (off by default: the icon row under the
+                                    # portrait already carries these links)
+  # certsSection: "certs"             # see "Renaming a section" below
+  # resumePath: "/resume"
+  # certsKicker: "Kubestronaut"       # appended to "16 credentials · …"
+  # certHighlights: ["CKS", "CKA"]
+  # resumeLabel: "Download PDF"
+  # copyright: "© Example · CC BY 4.0"   # defaults to "© <year> <author>"
+  mainSections: ["posts"]
+  DateFormat: "2 January 2006"
+  prefetch: true                    # false disables prefetch-on-hover
+  favicon: ""                       # see "Icons" below
+  # ogImage: "images/og.png"          # site-wide social preview fallback
+  webmentionDomain: ""              # set to enable a webmention.io <link>
+  author:
+    name: "Cool Byte"               # a bare string also works
+  # socialIcons:
+    # - { name: email,    url: "mailto:you@example.com" }
+    # - { name: github,   url: "https://github.com/username" }
+    # - { name: linkedin, url: "https://linkedin.com/in/you" }

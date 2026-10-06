@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Ms Word on Xplore Tech</title>
+		<link>http://localhost:1313/tags/ms-word/</link>
+		<description>Recent content in Ms Word on Xplore Tech</description>
+		<generator>Hugo</generator>
+		<language>id</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 28 Sep 2026 23:24:48 +0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ms-word/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cara Install dan Setup Zotero dengan MS Word (Windows)</title>
+				<link>http://localhost:1313/posts/guides/install-dan-setup-zotero/</link>
+				<pubDate>Mon, 28 Sep 2026 23:24:48 +0700</pubDate>
+				<guid>http://localhost:1313/posts/guides/install-dan-setup-zotero/</guid>
+				<description>&lt;h2 id=&#34;download-zotero&#34;&gt;Download Zotero&lt;a class=&#34;heading-anchor&#34; href=&#34;#download-zotero&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Pergi ke halaman download &lt;a href=&#34;https://zotero.org/download/&#34;&gt;zotero&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Pilih&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;install-zotero&#34;&gt;Install Zotero&lt;a class=&#34;heading-anchor&#34; href=&#34;#install-zotero&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;install-extention-zotero-di-browser&#34;&gt;Install Extention Zotero di Browser&lt;a class=&#34;heading-anchor&#34; href=&#34;#install-extention-zotero-di-browser&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;konfigurasi-zotero-dengan-ms-word&#34;&gt;Konfigurasi Zotero dengan MS Word&lt;a class=&#34;heading-anchor&#34; href=&#34;#konfigurasi-zotero-dengan-ms-word&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;</description>
+			</item>
+	</channel>
+</rss>

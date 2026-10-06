@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Categories on Xplore Tech</title>
+		<link>http://localhost:1313/categories/</link>
+		<description>Recent content in Categories on Xplore Tech</description>
+		<generator>Hugo</generator>
+		<language>id</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 28 Sep 2026 23:26:33 +0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Notes</title>
+				<link>http://localhost:1313/categories/notes/</link>
+				<pubDate>Mon, 28 Sep 2026 23:26:33 +0700</pubDate>
+				<guid>http://localhost:1313/categories/notes/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Guides</title>
+				<link>http://localhost:1313/categories/guides/</link>
+				<pubDate>Mon, 28 Sep 2026 23:24:48 +0700</pubDate>
+				<guid>http://localhost:1313/categories/guides/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>
