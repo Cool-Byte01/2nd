@@ -46,7 +46,7 @@ content:
         type: select
         options:
           values: [pemula, menengah, lanjut]
-      - { name: categories, label: categori, type: string, list: true, default: ['guides'], hidden: true }
+      - { name: categories, label: Kategori, type: string, list: true, default: ['guides'], hidden: true }
       - { name: tags, label: Tag, type: string, list: true }
       - { name: image, label: Cover, type: image }
       - { name: body, label: Isi, type: rich-text }
@@ -68,6 +68,6 @@ content:
       - { name: date, label: Tanggal, type: date, options: { time: true } }
       - { name: draft, label: Draft, type: boolean, default: true }
       - { name: description, label: Deskripsi, type: text }
-      - { name: categories, label: categori, type: string, list: true, default: ['notes'], hidden: true }
+      - { name: categories, label: Kategori, type: string, list: true, default: ['notes'], hidden: true }
       - { name: tags, label: Tag, type: string, list: true }
       - { name: body, label: Isi, type: rich-text }
