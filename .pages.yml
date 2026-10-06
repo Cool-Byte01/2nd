@@ -1,0 +1,73 @@
+media:
+  input: static/images
+  output: /images
+
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: content/posts
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      fields: [title, date, draft]
+      primary: title
+      default:
+        sort: date
+        order: desc
+    fields:
+      - { name: title, label: Judul, type: string, required: true }
+      - { name: date, label: Tanggal, type: date, options: { time: true } }
+      - { name: draft, label: Draft, type: boolean, default: true }
+      - { name: description, label: Deskripsi, type: text }
+      - { name: tags, label: Tag, type: string, list: true }
+      - { name: image, label: Cover, type: image }
+      - { name: body, label: Isi, type: rich-text }
+
+  - name: guides
+    label: Guides
+    type: collection
+    path: content/posts/guides
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      fields: [title, level, date, draft]
+      primary: title
+      default:
+        sort: date
+        order: desc
+    fields:
+      - { name: title, label: Judul, type: string, required: true }
+      - { name: date, label: Tanggal, type: date, options: { time: true } }
+      - { name: draft, label: Draft, type: boolean, default: true }
+      - { name: description, label: Deskripsi, type: text }
+      - name: level
+        label: Level
+        type: select
+        options:
+          values: [pemula, menengah, lanjut]
+      - { name: categories, label: categori, type: string, list: true, default: ['guides'], hidden: true }
+      - { name: tags, label: Tag, type: string, list: true }
+      - { name: image, label: Cover, type: image }
+      - { name: body, label: Isi, type: rich-text }
+
+  - name: notes
+    label: Notes
+    type: collection
+    path: content/posts/notes
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      fields: [title, date]
+      primary: title
+      default:
+        sort: date
+        order: desc
+    fields:
+      - { name: title, label: Judul, type: string, required: true }
+      - { name: date, label: Tanggal, type: date, options: { time: true } }
+      - { name: draft, label: Draft, type: boolean, default: true }
+      - { name: description, label: Deskripsi, type: text }
+      - { name: categories, label: categori, type: string, list: true, default: ['notes'], hidden: true }
+      - { name: tags, label: Tag, type: string, list: true }
+      - { name: body, label: Isi, type: rich-text }
